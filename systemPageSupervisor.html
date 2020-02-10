@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+
+     <meta charset = "utf - 8">
+	 <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+	 <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<script>
+    function Confirm()
+    {
+      var x = confirm("Are you sure you want to delete?");
+      if (x)
+          return true;
+      else
+        return false;
+    }
+	</script> 
+	
+</head>
+	 
+<title>
+
+FR Inventory System
+    
+</title>
+
+<style>
+
+header{border : 2px solid black;
+       background-color : #3399FF;
+	   padding-top : 15px;
+	   padding-bottom : 15px;
+       color : black;
+	   text-align : center;
+	   font-size : 200%}
+	   
+footer{border : 2px solid black;
+       background-color : #3399FF;
+	   text-align : center;
+	   padding-top : 10px;
+	   padding-bottom : 10px;
+       color : black;}
+	   
+nav{border : 2px solid black;
+    background-color : white;
+	color : black;
+	text-align :top left;
+	max-width : 1140px;}
+	   
+body{background-image : url("imageFR.jpg");
+     background-position : top center;
+	 background-attachment : fixed;}
+	 
+
+		
+image{text-align : center;}
+	   
+</style>
+
+</head>
+
+<body>
+
+<div class = "container">
+
+<header>
+
+FR RETAIL SHOP INVENTORY SYSTEM
+
+     <p>
+	 
+     <button type="button" class="btn btn-home"><a href = "mainPageSupervisor.html">Home</a></button>
+     <button type="button" class="btn btn-system"><a href = "systemPageSupervisor.html">System</a></button>
+	 <button type="button" class="btn btn-logout"><a href = "htmlloginFirst.html" onclick='return confirm();'>Logout</a></button>
+
+	 
+	 </p>
+	 
+</header>
+
+<br>
+
+<!-- Container (system Section) -->
+
+<nav id="system" class="container-fluid">
+
+     <h1>System</h1>
+
+<br>
+
+<p>
+<img src="pro-img-1.png" width="170" height="200" border="0"><th></th>
+<a href = "http://localhost/internSystem/viewPageSupervisor.php">Product</a> <th></th><th></th>
+<img src="supplier1600.png" width="170" height="200" border="0"><th></th>
+<a href = "http://localhost/internSystem/view1PageSupervisor.php">Supplier</a> <th></th><th></th>
+<img src="Notepad-512.png" width="170" height="200" border="0"><th></th>
+<a href = "http://localhost/internSystem/view2PageSupervisor.php">Log</a>
+</p>
+
+</nav>
+
+<br>
+
+<footer>
+
+FR RETAIL SHOP INVENTORY SYSTEM
+
+</footer>
+
+
+</div>
+
+</html>
